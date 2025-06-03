@@ -1,13 +1,7 @@
 #!/bin/bash
 
-# Check if the correct number of arguments was provided
-if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <source_folder> <destination_folder>"
-    exit 1
-fi
-
-SOURCE="$1"
-DEST="$2"
+SOURCE="/Users/ravikrishnaniyer/a"
+DEST="/Users/ravikrishnaniyer/b"
 
 # Check if source exists and is a directory
 if [ ! -d "$SOURCE" ]; then
